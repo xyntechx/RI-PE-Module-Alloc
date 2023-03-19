@@ -153,6 +153,7 @@ pip-selfcheck.json
 # Misc
 .DS_Store
 .vscode
-!scripts
-inputs
-outputs
+inputs/*
+!inputs/README.md
+outputs/*
+!outputs/README.md
