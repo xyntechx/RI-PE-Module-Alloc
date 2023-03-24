@@ -2,6 +2,7 @@
 The script to automate PE module allocations
 
 ## Usage
+
 - Clone this repository
 ```bash
 https://github.com/xyntechx/RI-PE-Module-Alloc.git
@@ -24,6 +25,8 @@ source .venv/bin/activate
 pip install -r requirements.txt
 ```
 
+### Generating Allocations
+
 - Place the input excel sheets for each timeslot into `/inputs` (name each file \<timeslot>.xlsx; refer to the [list of timeslots](#list-of-timeslots))
 
 - Run `main.py` for each timeslot (refer to the [list of timeslots](#list-of-timeslots))
@@ -32,6 +35,28 @@ python3 main.py <timeslot>
 ```
 
 - View the generated module allocations in `/outputs`
+
+### Consolidating Allocations (Class)
+
+- Place the finalised input excel sheets for each timeslot into `/finalisedInputs` (name each file \<timeslot>.xlsx; refer to the [list of timeslots](#list-of-timeslots))
+
+- Run `class.py`
+```bash
+python3 class.py
+```
+
+- View the generated module allocations in `/finalisedClassOutputs`
+
+### Consolidating Allocations (Teacher)
+
+- Place the finalised input excel sheets for each timeslot into `/finalisedInputs` (name each file \<timeslot>.xlsx; refer to the [list of timeslots](#list-of-timeslots))
+
+- Run `teacher.py`
+```bash
+python3 teacher.py
+```
+
+- View the generated module allocations in `/finalisedTeacherOutputs`
 
 ## List of Timeslots
 Choose one of the following to replace \<timeslot> (e.g. `mon0825.xlsx`, `python3 main.py mon0825`):
