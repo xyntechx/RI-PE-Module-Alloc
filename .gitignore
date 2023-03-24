@@ -157,3 +157,9 @@ inputs/*
 !inputs/README.md
 outputs/*
 !outputs/README.md
+finalisedInputs/*
+!finalisedInputs/README.md
+finalisedClassOutputs/*
+!finalisedClassOutputs/README.md
+finalisedTeacherOutputs/*
+!finalisedTeacherOutputs/README.md
