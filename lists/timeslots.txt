@@ -1,0 +1,11 @@
+mon0825
+mon0920
+mon1015
+tues0825
+tues0920
+tues1015
+thurs0825
+thurs0920
+fri0825
+fri0920
+fri1015
