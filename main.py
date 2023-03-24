@@ -127,4 +127,4 @@ df = pd.DataFrame(
 df.to_excel(f"outputs/{arg}.xlsx")
 
 
-print(f"Allocations for {arg} has been successfully generated!")
+print(f"Allocations for {arg} have been successfully generated!")
