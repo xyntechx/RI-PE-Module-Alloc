@@ -44,6 +44,7 @@ for timeslot in timeslots:
             MODULE = row[COLNAME.MODULE]
             VENUE = row[COLNAME.VENUE]
             TEACHER = row[COLNAME.TEACHER]
+            SLOT = timeslot
 
             try:
                 TEACHER_I = row[COLNAME.TEACHER_I]
@@ -52,7 +53,7 @@ for timeslot in timeslots:
 
             if t == TEACHER_I:
                 data = data_all[t]
-                data.append([NAME, CLASS, GENDER, MODULE, VENUE, TEACHER])
+                data.append([NAME, CLASS, GENDER, MODULE, VENUE, TEACHER, SLOT])
                 data_all[t] = data
 
 
@@ -66,6 +67,7 @@ for initial in data_all:
             "Allocated Module",
             "Venue",
             "Teacher",
+            "Slot"
         ],
     )
 
